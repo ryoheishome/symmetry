@@ -16,6 +16,10 @@
 
 #### Photos
 
-{{< figure src="img/cv/northernlight.jpg" caption="IASにて撮影（2024-10-11）— オーロラ。" >}}
+![](/symmetry/img/cv/northernlight.jpg)
 
-{{< figure src="img/cv/comet.jpg" caption="IASにて撮影（2024-10-14）— 紫金山・アトラス彗星（C/2023 A3）。" >}}
+*IASにて撮影（2024-10-11）— オーロラ。*
+
+![](/symmetry/img/cv/comet.jpg)
+
+*IASにて撮影（2024-10-14）— 紫金山・アトラス彗星（C/2023 A3）。*
