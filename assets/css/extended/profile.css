@@ -1,0 +1,12 @@
+/* 右寄せでコンパクトに表示 */
+figure.profile-photo {
+  float: right;
+  margin: 0 0 1rem 1rem;
+}
+
+/* 画像のサイズ・角丸 */
+figure.profile-photo img {
+  width: 180px;
+  height: auto;
+  border-radius: 12px;
+}

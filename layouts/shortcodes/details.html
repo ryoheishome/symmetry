@@ -1,0 +1,6 @@
+<details {{ if .Get "open" }}open{{ end }}>
+  <summary markdown="span">{{ .Get 0 | markdownify }}</summary>
+  <div class="details-content">
+    {{ .Inner | markdownify }}
+  </div>
+</details>

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ja" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>小林 良平</title>
+<meta name="keywords" content="">
+<meta name="description" content="私の研究は、凝縮系物理学と、量子誤り訂正の基礎的な問題に取り組むものです。とくに最近では「対称性」を軸にして、量子多体系と誤り訂正符号の基礎的な性質を系統的に理解することを目標にしています。
+以下では、これまでの研究をテーマごとに簡単に紹介します。
+
+
+  
+量子誤り訂正符号の対称性と論理ゲート
+
+
+  
+    量子誤り訂正では、エラーに強い符号を作るだけでなく、論理ビットにおける計算（論理ゲート）をどう実装するかが重要です。私は、トポロジカル秩序やスタビライザー符号に内在する一般化対称性を調べ、それが論理ゲートと深く結びついていることを明らかにしてきました。
+たとえば、Z2 toric code を含む有限群ゲージ理論に、higher-group symmetry と呼ばれる一般化対称性が非常に普遍的に現れることを示しました。これらの対称性は、スタビライザー符号の論理ゲートに対応し、その代数構造が Clifford hierarchy（論理ゲートの複雑さの階層）と対応することで、万能量子計算に必要な non-Clifford ゲートが可能になることを示しました。
+（arXiv:2208.07367, arXiv:2211.11764）
+さらに、空間3次元の Z2 ゲージ理論（3D toric code）に 新しい Z8 対称性が存在することを発見し、この対称性が CCZ / CS / T などの non-Clifford ゲートを生成することを示しました。
+（arXiv:2311.05674）
+最近は、non-Abelian 励起を持ちながら熱的に安定な「自己修復型量子メモリ（self-correcting quantum memory）」を初めて具体的に構成しました。これは、熱的に安定な非可換トポロジカル秩序の初めての例で、理論的に面白いだけでなく、transversal に non-Clifford CCZ ゲートを実装できる点でも重要です。また、この構成が従来のカラーコードを上回る code distance のスケーリングを達成することも示しました。
+（arXiv:2405.11719）
+加えて、一般の d次元で Clifford hierarchy の (d&#43;1) 階に対応する non-Clifford ゲートを transversal に実装可能なスタビライザー符号の広いクラス（“Clifford-hierarchy Stabilizer Codes”）を見出し、Pauli スタビライザー符号の論理ゲートに関する次元的制約（Bravyi–König bound）を破ることに成功しました。
+（arXiv:2511.02900）
+関連するキーワード：一般化対称性、トポロジカル符号、transversal ゲート、magic state、論理ゲートの分類
+
+  
+
+
+
+  
+量子多体系における「不変量」の抽出と理解
+
+
+  
+    トポロジカル相を持つ物質では、境界（エッジ）に特別な状態が現れます。たとえば 2 次元では、熱ホール伝導度が有限ならエッジは必ずギャップレスになります。一方で、熱ホール伝導度がゼロ（c- = 0）でもギャップレスなエッジが避けられない例があります。
+そのような状況において、ギャップレスなエッジ状態を導く不変量として、 higher central chargeと呼ばれる量が知られています。
+私は、higher central chargeを量子多体系の観測量として特徴づけ、実際に「物理量としてどう計算・測定できるか」を解明しました。具体的には、波動関数に対して「部分回転」と呼ばれる操作を行い、その期待値からhigher central chargeを取り出します。この方法は数値計算で検証できるだけでなく、量子コンピューターでの評価を行うこともできます。 (arXiv:2303.04822) この不変量によって、可換なトポロジカル秩序の境界がギャップを持つかどうか、ひとつの波動関数から完全に決定できることを示しました。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/ja/research/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.0de6e948c799253483a938eb92803c042779f53ab69d7b00a404b1bdcf92b3ae.css" integrity="sha256-DebpSMeZJTSDqTjrkoA8BCd59Tq2nXsApASxvc&#43;Ss64=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/en/research/">
+<link rel="alternate" hreflang="ja" href="http://localhost:1313/ja/research/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/ja/" accesskey="h" title="小林 良平 (Alt + H)">小林 良平</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="http://localhost:1313/en/" title="EN"
+                                aria-label="EN">En</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/ja/cv/" title="経歴">
+                    <span>経歴</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/ja/publications/" title="業績">
+                    <span>業績</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/ja/research/" title="研究">
+                    <span class="active">研究</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/ja/talks/" title="講演の記録">
+                    <span>講演の記録</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta"><span>言語:</span>
+<ul class="i18n_list">
+    <li>
+        <a href="http://localhost:1313/en/research/">En</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><p>私の研究は、凝縮系物理学と、量子誤り訂正の基礎的な問題に取り組むものです。とくに最近では「<strong>対称性</strong>」を軸にして、量子多体系と誤り訂正符号の基礎的な性質を系統的に理解することを目標にしています。</p>
+<p>以下では、これまでの研究をテーマごとに簡単に紹介します。</p>
+<hr>
+<details >
+  <summary markdown="span"><ol>
+<li>量子誤り訂正符号の対称性と論理ゲート</li>
+</ol>
+</summary>
+  <div class="details-content">
+    <p>量子誤り訂正では、エラーに強い符号を作るだけでなく、<strong>論理ビットにおける計算（論理ゲート）をどう実装するか</strong>が重要です。私は、トポロジカル秩序やスタビライザー符号に内在する<strong>一般化対称性</strong>を調べ、それが論理ゲートと深く結びついていることを明らかにしてきました。</p>
+<p>たとえば、Z2 toric code を含む有限群ゲージ理論に、<strong>higher-group symmetry</strong> と呼ばれる一般化対称性が非常に普遍的に現れることを示しました。これらの対称性は、スタビライザー符号の論理ゲートに対応し、その代数構造が <strong>Clifford hierarchy</strong>（論理ゲートの複雑さの階層）と対応することで、万能量子計算に必要な <strong>non-Clifford ゲート</strong>が可能になることを示しました。<br>
+（<a href="https://arxiv.org/abs/2208.07367">arXiv:2208.07367</a>, <a href="https://arxiv.org/abs/2211.11764">arXiv:2211.11764</a>）</p>
+<p>さらに、空間3次元の Z2 ゲージ理論（3D toric code）に <strong>新しい Z8 対称性</strong>が存在することを発見し、この対称性が CCZ / CS / T などの non-Clifford ゲートを生成することを示しました。<br>
+（<a href="https://arxiv.org/abs/2311.05674">arXiv:2311.05674</a>）</p>
+<p>最近は、<strong>non-Abelian 励起を持ちながら熱的に安定</strong>な「自己修復型量子メモリ（self-correcting quantum memory）」を初めて具体的に構成しました。これは、熱的に安定な非可換トポロジカル秩序の初めての例で、理論的に面白いだけでなく、transversal に non-Clifford CCZ ゲートを実装できる点でも重要です。また、この構成が従来のカラーコードを上回る code distance のスケーリングを達成することも示しました。<br>
+（<a href="https://arxiv.org/abs/2405.11719">arXiv:2405.11719</a>）</p>
+<p>加えて、一般の d次元で Clifford hierarchy の (d+1) 階に対応する non-Clifford ゲートを transversal に実装可能なスタビライザー符号の広いクラス（“Clifford-hierarchy Stabilizer Codes”）を見出し、Pauli スタビライザー符号の論理ゲートに関する<strong>次元的制約（Bravyi–König bound）を破る</strong>ことに成功しました。<br>
+（<a href="https://arxiv.org/abs/2511.02900">arXiv:2511.02900</a>）</p>
+<p><strong>関連するキーワード</strong>：一般化対称性、トポロジカル符号、transversal ゲート、magic state、論理ゲートの分類</p>
+
+  </div>
+</details>
+
+<details >
+  <summary markdown="span"><ol start="2">
+<li>量子多体系における「不変量」の抽出と理解</li>
+</ol>
+</summary>
+  <div class="details-content">
+    <p>トポロジカル相を持つ物質では、境界（エッジ）に特別な状態が現れます。たとえば 2 次元では、<strong>熱ホール伝導度</strong>が有限ならエッジは必ずギャップレスになります。一方で、熱ホール伝導度がゼロ（c- = 0）でもギャップレスなエッジが避けられない例があります。</p>
+<p>そのような状況において、ギャップレスなエッジ状態を導く不変量として、 <strong>higher central charge</strong>と呼ばれる量が知られています。
+私は、higher central chargeを量子多体系の<strong>観測量として特徴づけ</strong>、実際に「物理量としてどう計算・測定できるか」を解明しました。具体的には、波動関数に対して「部分回転」と呼ばれる操作を行い、その期待値からhigher central chargeを取り出します。この方法は数値計算で検証できるだけでなく、量子コンピューターでの評価を行うこともできます。 (<a href="https://arxiv.org/abs/2303.04822">arXiv:2303.04822</a>) この不変量によって、可換なトポロジカル秩序の境界がギャップを持つかどうか、ひとつの波動関数から完全に決定できることを示しました。</p>
+<p>さらに、U(1) 対称性がある系（量子ホール系など）では、熱ホール伝導度と電気ホール伝導度を一般化した <strong>higher Hall conductivity</strong> を提案し、「通常のホール伝導度がすべてゼロでも」高次の不変量が <strong>U(1) 対称性を保つギャップレスなエッジ状態</strong>を強制することを示しました。<br>
+（<a href="https://arxiv.org/abs/2203.08156">arXiv:2203.08156</a>, <a href="https://arxiv.org/abs/2404.10814">arXiv:2404.10814</a>）</p>
+<p>また、結晶対称性を持つトポロジカル相（fractional Chern insulators を含む）に対しても、不変量を抽出する手法を提案しています。とくに、Chern 絶縁体が「鏡映と時間反転を組み合わせた RT 対称性」のもとで非自明になりうることを見出し、その分類を特徴づける新しい不変量を与えました。<br>
+（<a href="https://arxiv.org/abs/2303.16919">arXiv:2303.16919</a>, <a href="https://arxiv.org/abs/2403.18887">arXiv:2403.18887</a>, <a href="https://arxiv.org/abs/2405.17431">arXiv:2405.17431</a>）</p>
+<p><strong>関連するキーワード</strong>：トポロジカル不変量、エッジ状態、結晶対称性、数値計算・量子計算</p>
+
+  </div>
+</details>
+
+<details >
+  <summary markdown="span"><ol start="3">
+<li>Higher-form symmetry と量子異常の微視的理解</li>
+</ol>
+</summary>
+  <div class="details-content">
+    <p>最近私は、量子多体系の「対称性に基づくトポロジカル不変量」を、格子模型（微視的模型）のレベルで<strong>直接定義して計算する</strong>ための、系統的な手法を開発しました。たとえば、波動関数に対して対称性演算子を掛け合わせ、その期待値を計算することで、不変量を分類・評価する枠組みを提案しています。<br>
+（<a href="https://arxiv.org/abs/2412.01886">arXiv:2412.01886</a>）</p>
+<p>こうした不変量は、場の理論で言う「量子異常」を、格子模型の上で微視的に捉えることに対応します。不変量がゼロでない場合、その状態は <strong>対称性を保つ自明なギャップ相にはなれない</strong>ため、低エネルギーにおける理論の可能性が強く制限されます。</p>
+<p>とくに <strong>higher-form symmetry</strong>は、トポロジカル秩序や量子スピン液体で普遍的に現れる重要な対称性です。私は、higher-form symmetry に伴う量子異常が、通常の対称性よりも強い意味で <strong>長距離量子もつれを強制</strong>し、どんな短距離もつれ状態を用いても近似ができなくなる（fidelity が系のサイズに対して指数関数的に減衰する）ことを一般的に示しました。<br>
+（<a href="https://arxiv.org/abs/2504.10569">arXiv:2504.10569</a>）</p>
+<p>さらに、higher-form symmetry が格子系でどのように定式化・実現されるかという基本的な問題にも取り組み、量子異常の一般的な微視的定式化を与えるとともに （<a href="https://arxiv.org/abs/2509.12304">arXiv:2509.12304</a>）、 オンサイト対称性として実現可能かどうかの条件も明確化しました。 （<a href="https://arxiv.org/abs/2510.23701">arXiv:2510.23701</a>）</p>
+<p><strong>関連するキーワード</strong>：higher-form symmetry、量子異常、格子上の不変量、量子もつれ、量子開放系</p>
+
+  </div>
+</details>
+
+<details >
+  <summary markdown="span"><ol start="4">
+<li>非可逆（non-invertible）対称性とその物理</li>
+</ol>
+</summary>
+  <div class="details-content">
+    <p>従来、対称性は「逆操作がある（可逆）」と考えられてきましたが、近年は<strong>逆操作を持たない非可逆な演算子</strong>が対称性を生成することが分かってきました（non-invertible symmetry）。</p>
+<p>私は、non-invertible symmetry を持つ量子多体系で、分数量子ホール系に似た <strong>Hall 応答</strong>や <strong>対称性の分数化</strong>が現れうることを示しました。<br>
+（<a href="https://arxiv.org/abs/2405.20401">arXiv:2405.20401</a>）</p>
+<p>また、通常の可逆な対称性が部分的にダイナミカルなゲージ場と結合することで、大域的対称性が非可逆になる（coset symmetry）状況を系統的に調べ、特定の離散的な coset symmetry では <strong>対称性を保つギャップ相が禁止される</strong>ことを示しました。<br>
+（<a href="https://arxiv.org/abs/2503.00105">arXiv:2503.00105</a>）</p>
+<p>さらに、離散的な non-invertible symmetry では、対称性が完全に自発的に破れていても、異なるギャップ相の分類が現れることを示し、それらを結ぶ境界（interface）に非自明なモードが現れることを明らかにしました。<br>
+（<a href="https://arxiv.org/abs/2501.03314">arXiv:2501.03314</a>, <a href="https://arxiv.org/abs/2507.12515">arXiv:2507.12515</a>）</p>
+<p><strong>関連するキーワード</strong>：non-invertible symmetry、coset symmetry、Hall 応答、相の分類</p>
+
+  </div>
+</details>
+
+<details >
+  <summary markdown="span"><ol start="5">
+<li>トポロジカル秩序相・SPT相と量子異常（境界の理論）</li>
+</ol>
+</summary>
+  <div class="details-content">
+    <p>エネルギーギャップをもつ量子多体系の相のうち、<strong>大域的対称性を自発的に破らず</strong>、かつ<strong>基底状態の縮退を持たない</strong>ものは、対称性に保護されたトポロジカル相（SPT相）と呼ばれます。SPT相の重要な性質は、境界に非自明な状態が現れるということで、トポロジカル絶縁体やトポロジカル超伝導体もSPT相の代表例です。</p>
+<p>この「境界の非自明さ」は、場の理論で言う（’t Hooft）<strong>量子異常</strong>で理解できます。量子異常は繰り込みで不変なので、低エネルギーでは量子異常を再現する自由度が必ず必要になり、境界は対称性を保ったまま自明な絶縁体にはなれません。</p>
+<p>私は、ボソン系・フェルミオン系の双方で、量子異常とエネルギーギャップの関係を研究してきました。摂動的な量子異常なら境界はギャップレスでなければならない一方、一般の（非摂動的な）量子異常では、境界が必ずしもギャップレスとは限らず、対称性を保つトポロジカル秩序 (<strong>SET相</strong>) が量子異常を担うことがあります。そこで「どの SPT相の境界が SET 相として実現できるか」を具体的に理解することが重要です。</p>
+<p>私は、有限群の対称性を持つフェルミオン SPT 相の広いクラスや、群コホモロジーを超える SPT 相について、境界が SET 相として実現可能であることを示し、対応する SET の有効理論を局所的に定義する具体的な構成を与えました。<br>
+（<a href="https://arxiv.org/abs/1905.05391">arXiv:1905.05391</a>, <a href="https://arxiv.org/abs/1905.05902">arXiv:1905.05902</a>）</p>
+<p>さらに、(2+1) 次元のボソン／フェルミオン SET 相に対する対称性作用を解析し、トポロジカル秩序を特徴づける代数的データから、量子異常を<strong>完全に決定する公式</strong>を与えました。これにより、時間反転対称性の量子異常や、トポロジカル絶縁体・超伝導体表面に対応する U(1) 対称性の量子異常などを具体的に計算できます。<br>
+（<a href="https://arxiv.org/abs/2104.14567">arXiv:2104.14567</a>, <a href="https://arxiv.org/abs/2111.14827">arXiv:2111.14827</a>）
+これらは、与えられたSET相から出発して、バルク（3+1）次元SPT相の局所的経路積分を構成することで得られる結果であって、4次元多様体上の新しい組み合わせ的位相不変量の構成を与えます。特に<a href="https://arxiv.org/abs/2104.14567">arXiv:2104.14567</a>では、RP4と“fake” RP4のような4次元多様体のエキゾチックな微分構造を区別する組合せ的位相不変量を初めて与えたため、数学的にも驚くべき結果をもたらしています。</p>
+<p>また、トポロジカル秩序の対称性は「エニオンの入れ替え」や「対称性の分数化」として作用することが多いのですが、それらを全く伴わないにもかかわらず、理論へ非自明に作用する対称性の存在も指摘しました。<br>
+（<a href="https://arxiv.org/abs/2501.03314">arXiv:2501.03314</a>）</p>
+<p><strong>関連するキーワード</strong>：SPT/SET、量子異常、境界理論、経路積分、トポロジカル秩序</p>
+
+  </div>
+</details>
+
+<hr>
+<h3 id="学生さんへ">学生さんへ<a hidden class="anchor" aria-hidden="true" href="#学生さんへ">#</a></h3>
+<p>上のテーマは、抽象的な理論 (<strong>対称性・量子異常・場の理論</strong>) から、<strong>格子模型・量子誤り訂正符号・量子計算</strong>まで幅広くつながっています。上のようなテーマに関する研究をずっと行いつづけるとは限らないのですが、上の概要を見て面白そうだと思ったり、共鳴してくれる学生さんは、ぜひコンタクトをとってくれると嬉しいです。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/ja/">小林 良平</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+details {
+  margin: 1rem 0;
+  padding: .6rem .9rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--entry);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+details[open] summary {
+  margin-bottom: .6rem;
+}
+
+/* 折り畳みの見出し(summary)をh3相当に */
+details > summary {
+  font-size: 1.25rem;   /* ←ここを調整 */
+  font-weight: 700;
+  line-height: 1.3;
+}

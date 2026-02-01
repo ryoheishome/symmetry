@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ホーム on 小林 良平</title>
+    <link>http://localhost:1313/ja/</link>
+    <description>Recent content in ホーム on 小林 良平</description>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>ja</language>
+    <atom:link href="http://localhost:1313/ja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/cv/</guid>
+      <description>&lt;h3 id=&#34;学歴職歴&#34;&gt;学歴・職歴&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;期間&lt;/th&gt;
+          &lt;th&gt;内容&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2024年9月 – 現在&lt;/td&gt;
+          &lt;td&gt;Member, Institute for Advanced Study, Princeton&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2021年9月 – 2024年8月&lt;/td&gt;
+          &lt;td&gt;JQI Postdoctoral Fellow, University of Maryland&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2021年8月&lt;/td&gt;
+          &lt;td&gt;東京大学大学院 理学系研究科 物理学専攻 博士課程 修了（博士、早期卒業）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2019年3月&lt;/td&gt;
+          &lt;td&gt;東京大学大学院 理学系研究科 物理学専攻 修士課程 修了&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2017年3月&lt;/td&gt;
+          &lt;td&gt;東京大学 理学部 物理学科 卒業&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2013年3月&lt;/td&gt;
+          &lt;td&gt;開成高等学校 卒業&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;photos&#34;&gt;Photos&lt;/h4&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/cv/northernlight.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;IASにて撮影（2024-10-11）— オーロラ。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/cv/comet.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;IASにて撮影（2024-10-14）— 紫金山・アトラス彗星（C/2023 A3）。&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/publications/</guid>
+      <description>&lt;p&gt;査読付き論文およびプレプリント一覧です：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Guanyu Zhu, &lt;strong&gt;Ryohei Kobayashi&lt;/strong&gt;, Po-Shen Hsin, “Non-Abelian qLDPC: TQFT Formalism, Addressable Gauging Measurement and Application to Magic State Fountain on 2D Product Codes”, &lt;a href=&#34;https://arxiv.org/abs/2601.06736&#34;&gt;arXiv:2601.06736&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Yitao Feng, Hanyu Xue, &lt;strong&gt;Ryohei Kobayashi&lt;/strong&gt;, Po-Shen Hsin, Yu-An Chen, “Pauli stabilizer formalism for topological quantum field theories and generalized statistics”, &lt;a href=&#34;https://arxiv.org/abs/2601.00064&#34;&gt;arXiv:2601.00064&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Po-Shen Hsin, &lt;strong&gt;Ryohei Kobayashi&lt;/strong&gt;, “Automorphism in Gauge Theories: Higher Symmetries and Transversal Non-Clifford Logical Gates”, &lt;a href=&#34;https://arxiv.org/abs/2511.15783&#34;&gt;arXiv:2511.15783&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ryohei Kobayashi&lt;/strong&gt;, Guanyu Zhu, Po-Shen Hsin, “Clifford Hierarchy Stabilizer Codes: Transversal Non-Clifford Gates and Magic”, &lt;a href=&#34;https://arxiv.org/abs/2511.02900&#34;&gt;arXiv:2511.02900&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/research/</guid>
+      <description>&lt;p&gt;私の研究は、凝縮系物理学と、量子誤り訂正の基礎的な問題に取り組むものです。とくに最近では「&lt;strong&gt;対称性&lt;/strong&gt;」を軸にして、量子多体系と誤り訂正符号の基礎的な性質を系統的に理解することを目標にしています。&lt;/p&gt;
+&lt;p&gt;以下では、これまでの研究をテーマごとに簡単に紹介します。&lt;/p&gt;
+&lt;hr&gt;
+&lt;details &gt;
+  &lt;summary markdown=&#34;span&#34;&gt;&lt;ol&gt;
+&lt;li&gt;量子誤り訂正符号の対称性と論理ゲート&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/summary&gt;
+  &lt;div class=&#34;details-content&#34;&gt;
+    &lt;p&gt;量子誤り訂正では、エラーに強い符号を作るだけでなく、&lt;strong&gt;論理ビットにおける計算（論理ゲート）をどう実装するか&lt;/strong&gt;が重要です。私は、トポロジカル秩序やスタビライザー符号に内在する&lt;strong&gt;一般化対称性&lt;/strong&gt;を調べ、それが論理ゲートと深く結びついていることを明らかにしてきました。&lt;/p&gt;
+&lt;p&gt;たとえば、Z2 toric code を含む有限群ゲージ理論に、&lt;strong&gt;higher-group symmetry&lt;/strong&gt; と呼ばれる一般化対称性が非常に普遍的に現れることを示しました。これらの対称性は、スタビライザー符号の論理ゲートに対応し、その代数構造が &lt;strong&gt;Clifford hierarchy&lt;/strong&gt;（論理ゲートの複雑さの階層）と対応することで、万能量子計算に必要な &lt;strong&gt;non-Clifford ゲート&lt;/strong&gt;が可能になることを示しました。&lt;br&gt;
+（&lt;a href=&#34;https://arxiv.org/abs/2208.07367&#34;&gt;arXiv:2208.07367&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/2211.11764&#34;&gt;arXiv:2211.11764&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;さらに、空間3次元の Z2 ゲージ理論（3D toric code）に &lt;strong&gt;新しい Z8 対称性&lt;/strong&gt;が存在することを発見し、この対称性が CCZ / CS / T などの non-Clifford ゲートを生成することを示しました。&lt;br&gt;
+（&lt;a href=&#34;https://arxiv.org/abs/2311.05674&#34;&gt;arXiv:2311.05674&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;最近は、&lt;strong&gt;non-Abelian 励起を持ちながら熱的に安定&lt;/strong&gt;な「自己修復型量子メモリ（self-correcting quantum memory）」を初めて具体的に構成しました。これは、熱的に安定な非可換トポロジカル秩序の初めての例で、理論的に面白いだけでなく、transversal に non-Clifford CCZ ゲートを実装できる点でも重要です。また、この構成が従来のカラーコードを上回る code distance のスケーリングを達成することも示しました。&lt;br&gt;
+（&lt;a href=&#34;https://arxiv.org/abs/2405.11719&#34;&gt;arXiv:2405.11719&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;加えて、一般の d次元で Clifford hierarchy の (d+1) 階に対応する non-Clifford ゲートを transversal に実装可能なスタビライザー符号の広いクラス（“Clifford-hierarchy Stabilizer Codes”）を見出し、Pauli スタビライザー符号の論理ゲートに関する&lt;strong&gt;次元的制約（Bravyi–König bound）を破る&lt;/strong&gt;ことに成功しました。&lt;br&gt;
+（&lt;a href=&#34;https://arxiv.org/abs/2511.02900&#34;&gt;arXiv:2511.02900&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;関連するキーワード&lt;/strong&gt;：一般化対称性、トポロジカル符号、transversal ゲート、magic state、論理ゲートの分類&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;details &gt;
+  &lt;summary markdown=&#34;span&#34;&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;量子多体系における「不変量」の抽出と理解&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/summary&gt;
+  &lt;div class=&#34;details-content&#34;&gt;
+    &lt;p&gt;トポロジカル相を持つ物質では、境界（エッジ）に特別な状態が現れます。たとえば 2 次元では、&lt;strong&gt;熱ホール伝導度&lt;/strong&gt;が有限ならエッジは必ずギャップレスになります。一方で、熱ホール伝導度がゼロ（c- = 0）でもギャップレスなエッジが避けられない例があります。&lt;/p&gt;
+&lt;p&gt;そのような状況において、ギャップレスなエッジ状態を導く不変量として、 &lt;strong&gt;higher central charge&lt;/strong&gt;と呼ばれる量が知られています。
+私は、higher central chargeを量子多体系の&lt;strong&gt;観測量として特徴づけ&lt;/strong&gt;、実際に「物理量としてどう計算・測定できるか」を解明しました。具体的には、波動関数に対して「部分回転」と呼ばれる操作を行い、その期待値からhigher central chargeを取り出します。この方法は数値計算で検証できるだけでなく、量子コンピューターでの評価を行うこともできます。 (&lt;a href=&#34;https://arxiv.org/abs/2303.04822&#34;&gt;arXiv:2303.04822&lt;/a&gt;) この不変量によって、可換なトポロジカル秩序の境界がギャップを持つかどうか、ひとつの波動関数から完全に決定できることを示しました。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/ja/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ja/talks/</guid>
+      <description>&lt;p&gt;最近行った講演のうち、&lt;strong&gt;動画・ノート等の記録が公開されているもの&lt;/strong&gt;（または近日公開予定のもの）をいくつかまとめています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;kitp-santa-barbara--招待講義2時間&#34;&gt;KITP (Santa Barbara) — 招待講義（2時間）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;テーマ&lt;/strong&gt;: 量子誤り訂正符号における対称性&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時期&lt;/strong&gt;: 2025年3月&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;リンク&lt;/strong&gt;: &lt;a href=&#34;https://online.kitp.ucsb.edu/online/gensym25/kobayashi/&#34;&gt;https://online.kitp.ucsb.edu/online/gensym25/kobayashi/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;東京大学-物工渡辺悠樹先生主催-集中講義&#34;&gt;東京大学 物工（渡辺悠樹先生主催）— 集中講義&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;テーマ&lt;/strong&gt;: 量子多体系における対称性とその応用&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時期&lt;/strong&gt;: 2025年12月&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;リンク&lt;/strong&gt;: &lt;a href=&#34;https://sites.google.com/view/watanabegroup/japanese/seminars/kobayashi_lecture&#34;&gt;https://sites.google.com/view/watanabegroup/japanese/seminars/kobayashi_lecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ノート&lt;/strong&gt;: 近日中に手書きノートを公開予定です（準備中）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;kitp-santa-barbara--招待講演&#34;&gt;KITP (Santa Barbara) — 招待講演&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;テーマ&lt;/strong&gt;: 対称性の量子異常の微視的な特徴づけ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時期&lt;/strong&gt;: 2025年4月&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;リンク&lt;/strong&gt;: &lt;a href=&#34;https://online.kitp.ucsb.edu/online/gensym-c25/kobayashi/&#34;&gt;https://online.kitp.ucsb.edu/online/gensym-c25/kobayashi/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;oxford-symmetry-seminar--招待講演2回&#34;&gt;Oxford “Symmetry Seminar” — 招待講演（2回）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;セミナーシリーズ&lt;/strong&gt;: &lt;a href=&#34;https://sites.google.com/view/symmetryseminar/home&#34;&gt;https://sites.google.com/view/symmetryseminar/home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;動画&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Talk 1: &lt;a href=&#34;https://www.youtube.com/watch?v=r7RITb5RqPI&#34;&gt;https://www.youtube.com/watch?v=r7RITb5RqPI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Talk 2: &lt;a href=&#34;https://www.youtube.com/watch?v=qVIslcyXrfU&#34;&gt;https://www.youtube.com/watch?v=qVIslcyXrfU&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

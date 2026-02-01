@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Ryohei Kobayashi</title>
+<meta name="keywords" content="">
+<meta name="description" content="My research investigates fundamental problems in quantum many-body physics and quantum error correction, with a particular focus on topological phases, symmetries, and quantum anomalies. Especially in recent years, I have been using symmetry as a unifying viewpoint to systematically understand the universal structure and dynamics of strongly correlated quantum systems and error-correcting codes.
+Below I briefly summarize my past and current research by themes.
+
+
+  
+Symmetry of Quantum Error-Correcting Codes and Logical Gates
+
+
+  
+    In quantum error correction, it is crucial not only to build codes robust against noise, but also to understand how to implement logical computation (logical gates) on encoded qubits. A central theme of my work is that generalized symmetries in quantum matter are deeply tied to the structure of logical gates in stabilizer codes.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/en/research/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.0de6e948c799253483a938eb92803c042779f53ab69d7b00a404b1bdcf92b3ae.css" integrity="sha256-DebpSMeZJTSDqTjrkoA8BCd59Tq2nXsApASxvc&#43;Ss64=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/en/research/">
+<link rel="alternate" hreflang="ja" href="http://localhost:1313/ja/research/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/en/" accesskey="h" title="Ryohei Kobayashi (Alt + H)">Ryohei Kobayashi</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="http://localhost:1313/ja/" title="日本語"
+                                aria-label="日本語">Ja</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/en/cv/" title="CV">
+                    <span>CV</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/publications/" title="Publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/research/" title="Research">
+                    <span class="active">Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/en/talks/" title="Talks">
+                    <span>Talks</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta"><span>Translations:</span>
+<ul class="i18n_list">
+    <li>
+        <a href="http://localhost:1313/ja/research/">Ja</a>
+    </li>
+</ul>
+
+</div>
+  </header> 
+  <div class="post-content"><p>My research investigates fundamental problems in <strong>quantum many-body physics</strong> and <strong>quantum error correction</strong>, with a particular focus on topological phases, symmetries, and quantum anomalies. Especially in recent years, I have been using <strong>symmetry</strong> as a unifying viewpoint to systematically understand the universal structure and dynamics of strongly correlated quantum systems and error-correcting codes.</p>
+<p>Below I briefly summarize my past and current research by themes.</p>
+<hr>
+<details >
+  <summary markdown="span"><ol>
+<li>Symmetry of Quantum Error-Correcting Codes and Logical Gates</li>
+</ol>
+</summary>
+  <div class="details-content">
+    <p>In quantum error correction, it is crucial not only to build codes robust against noise, but also to understand <strong>how to implement logical computation (logical gates) on encoded qubits</strong>. A central theme of my work is that generalized symmetries in quantum matter are deeply tied to the structure of logical gates in stabilizer codes.</p>
+<p>For example, I showed that finite-group gauge theories—including the Z2 toric code—<strong>universally exhibit higher-group symmetries</strong>. These generalized symmetries can be interpreted as logical operations, and their algebraic structure leads to the <strong>Clifford hierarchy</strong>, thereby revealing symmetry principles that enable <strong>non-Clifford logical gates</strong> essential for universal fault-tolerant quantum computation.<br>
+(<a href="https://arxiv.org/abs/2208.07367">arXiv:2208.07367</a>, <a href="https://arxiv.org/abs/2211.11764">arXiv:2211.11764</a>)</p>
+<p>Building on this, I discovered a new emergent <strong>Z8 symmetry</strong> in the 3D Z2 toric code and demonstrated that it gives rise to transversal non-Clifford gates such as <strong>CCZ / CS / T</strong>.<br>
+(<a href="https://arxiv.org/abs/2311.05674">arXiv:2311.05674</a>)</p>
+<p>More recently, I constructed the <strong>first example of a self-correcting quantum memory with non-Abelian excitations</strong>, which is also the first instance of a thermally stable non-Abelian topological order. The model supports a transversal <strong>non-Clifford CCZ</strong> gate, and I showed that it achieves a code-distance scaling that surpasses that of known color codes.<br>
+(<a href="https://arxiv.org/abs/2405.11719">arXiv:2405.11719</a>)</p>
+<p>I further discovered a broad family of <strong>Clifford-hierarchy stabilizer codes</strong>, which support transversal non-Clifford gates at level d+1 in spatial dimension $d$. These codes break the well-known <strong>Bravyi–König bound</strong> for Pauli stabilizer codes, demonstrating that transversal gate constraints can be fundamentally circumvented in broader code families.<br>
+(<a href="https://arxiv.org/abs/2511.02900">arXiv:2511.02900</a>)</p>
+<p><strong>Keywords:</strong> generalized symmetries, topological codes, transversal gates, magic states, classification of logical gates</p>
+
+  </div>
+</details>
+
+<details >
+  <summary markdown="span"><ol start="2">
+<li>Invariants and Response Theories in Quantum Many-Body Systems</li>
+</ol>
+</summary>
+  <div class="details-content">
+    <p>Topological phases exhibit striking boundary phenomena. For instance, in (2+1) dimensions, a nonzero <strong>thermal Hall conductivity</strong> implies <strong>gapless edge modes</strong>. However, there are also situations where the thermal Hall response vanishes (c- = 0) and yet gapless boundaries are unavoidable. Motivated by this, recent developments have identified the <strong>higher central charge</strong> as a key invariant controlling whether a topologically ordered phase can admit a gapped boundary.</p>
+<p>I developed a way to physically characterize and compute the <strong>higher central charge</strong> directly from a ground-state wavefunction by applying a <strong>partial rotation</strong> operator and evaluating its expectation value. This provides an observable definition of the invariant, accessible both in numerical simulations and (in principle) measurement protocols on quantum computing platforms. Using this method, I showed that for <strong>Abelian topological orders</strong>, the higher central charge completely determines whether gapped boundaries can exist, based on a single wavefunction.<br>
+(<a href="https://arxiv.org/abs/2303.04822">arXiv:2303.04822</a>)</p>
+<p>Extending this line of work, I proposed a new invariant—the <strong>higher Hall conductivity</strong>—which generalizes both the electric and thermal Hall responses in U(1)-symmetric systems. I showed that even if the conventional Hall conductivities vanish, a nontrivial higher Hall conductivity can still enforce <strong>protected gapless edge states under U(1) symmetry</strong>.<br>
+(<a href="https://arxiv.org/abs/2203.08156">arXiv:2203.08156</a>, <a href="https://arxiv.org/abs/2404.10814">arXiv:2404.10814</a>)</p>
+<p>I have also proposed frameworks to extract invariants in topological phases enriched by <strong>crystalline symmetries</strong>, including fractional Chern insulators. In particular, I found that the standard Chern insulator becomes a nontrivial crystalline topological phase when <strong>mirror reflection is combined with time-reversal symmetry (RT symmetry)</strong>, and I identified a corresponding new crystalline invariant characterizing this phase.<br>
+(<a href="https://arxiv.org/abs/2303.16919">arXiv:2303.16919</a>, <a href="https://arxiv.org/abs/2403.18887">arXiv:2403.18887</a>, <a href="https://arxiv.org/abs/2405.17431">arXiv:2405.17431</a>)</p>
+<p><strong>Keywords:</strong> topological invariants, edge physics, crystalline symmetries, numerical diagnostics</p>
+
+  </div>
+</details>
+
+<details >
+  <summary markdown="span"><ol start="3">
+<li>Higher-Form Symmetry and Microscopic Diagnostics of Quantum Anomalies</li>
+</ol>
+</summary>
+  <div class="details-content">
+    <p>Another central theme of my recent research is to develop <strong>microscopic (lattice-level) diagnostics</strong> of quantum anomalies based on generalized symmetries. I proposed a universal framework to compute topological invariants in lattice models with internal or generalized symmetries by evaluating expectation values of composite symmetry operators directly in the many-body wavefunction.<br>
+(<a href="https://arxiv.org/abs/2412.01886">arXiv:2412.01886</a>)</p>
+<p>These invariants provide microscopic manifestations of quantum anomalies and impose stringent constraints on low-energy behavior. In particular, if such an invariant is nonzero, the state <strong>cannot be a trivial symmetric gapped phase</strong>, strongly narrowing down what is possible in the infrared.</p>
+<p>Higher-form symmetries play a particularly important role in describing quantum spin liquids, gauge theories, and topologically ordered phases. I proved that anomalies associated with higher-form symmetries enforce a <strong>strong form of long-range entanglement</strong>: the fidelity between the system’s state and any short-range-entangled state decays exponentially with system size. In other words, anomalous higher-form symmetries prohibit any approximation by short-range-entangled states.<br>
+(<a href="https://arxiv.org/abs/2504.10569">arXiv:2504.10569</a>)</p>
+<p>I also investigated how higher-form symmetries can be defined and realized on microscopic lattice models, establishing a general lattice formulation of <strong>higher-form symmetry anomalies</strong>, and I clarified precise criteria for when a higher-form symmetry can be realized as an <strong>onsite</strong> symmetry.<br>
+(<a href="https://arxiv.org/abs/2509.12304">arXiv:2509.12304</a>, <a href="https://arxiv.org/abs/2510.23701">arXiv:2510.23701</a>)</p>
+<p><strong>Keywords:</strong> higher-form symmetry, quantum anomalies, lattice diagnostics, long-range entanglement, open quantum systems</p>
+
+  </div>
+</details>
+
+<details >
+  <summary markdown="span"><ol start="4">
+<li>Non-Invertible Symmetries and Their Physical Consequences</li>
+</ol>
+</summary>
+  <div class="details-content">
+    <p>Traditionally, symmetries have been formulated as invertible operations forming a group. Recently, it has become clear that symmetry can be generalized further: <strong>non-invertible operators</strong> can also generate symmetries (non-invertible symmetries).</p>
+<p>I showed that in quantum many-body systems with non-invertible symmetries, one can obtain <strong>Hall-type responses</strong> and <strong>symmetry fractionalization</strong> phenomena analogous to those in fractional quantum Hall states.<br>
+(<a href="https://arxiv.org/abs/2405.20401">arXiv:2405.20401</a>)</p>
+<p>I also studied situations where an ordinary (invertible) symmetry becomes effectively non-invertible through coupling to a partially dynamical gauge field—so-called <strong>coset symmetries</strong>. I analyzed their responses and anomalies systematically and showed that for certain discrete coset symmetries, a <strong>symmetric gapped phase is forbidden</strong>.<br>
+(<a href="https://arxiv.org/abs/2503.00105">arXiv:2503.00105</a>)</p>
+<p>Furthermore, for discrete non-invertible symmetries, I showed that even when the symmetry is completely spontaneously broken, distinct gapped phases can still be meaningfully classified. I constructed explicit lattice models realizing such phases and demonstrated that nontrivial <strong>interface modes</strong> appear at boundaries between different symmetry-broken phases.<br>
+(<a href="https://arxiv.org/abs/2501.03314">arXiv:2501.03314</a>, <a href="https://arxiv.org/abs/2507.12515">arXiv:2507.12515</a>)</p>
+<p><strong>Keywords:</strong> non-invertible symmetry, coset symmetry, Hall responses, phase classification, interfaces</p>
+
+  </div>
+</details>
+
+<details >
+  <summary markdown="span"><ol start="5">
+<li>Symmetry, Quantum Anomalies, and Boundaries of Topological Phases (SPT/SET)</li>
+</ol>
+</summary>
+  <div class="details-content">
+    <p>Among gapped quantum phases, <strong>symmetry-protected topological (SPT) phases</strong> are those that do not spontaneously break global symmetries and do not have ground-state degeneracy. A hallmark of SPT phases is the presence of nontrivial boundary phenomena; topological insulators and topological superconductors are well-known examples.</p>
+<p>The nontriviality of SPT boundaries is naturally explained by <strong>(’t Hooft) quantum anomalies</strong> in the corresponding field theories. Because anomalies are invariant under renormalization group flow, the low-energy theory must retain degrees of freedom that reproduce the anomaly. This prohibits a boundary from becoming a trivial symmetric insulator.</p>
+<p>I studied qualitative relationships between anomalies and energy gaps in both bosonic and fermionic systems. While perturbative anomalies typically force gapless boundary modes, more general (non-perturbative) anomalies can be saturated by a <strong>symmetry-preserving topological order</strong>, i.e., a <strong>symmetry-enriched topological (SET) phase</strong>. A key question is therefore: which SPT boundaries can be realized as symmetry-preserving gapped SET phases?</p>
+<p>I showed that broad classes of fermionic SPT phases with finite-group symmetries, as well as SPT phases beyond group cohomology, admit boundaries realized by SET phases. I provided explicit constructions that define the corresponding SET effective theories locally, demonstrating that anomalies can be saturated by gapped topological degrees of freedom rather than gapless excitations.<br>
+(<a href="https://arxiv.org/abs/1905.05391">arXiv:1905.05391</a>, <a href="https://arxiv.org/abs/1905.05902">arXiv:1905.05902</a>)</p>
+<p>In addition, I analyzed symmetry actions on (2+1)-dimensional bosonic/fermionic SET phases and derived explicit formulas that determine anomalies from algebraic data characterizing the topological order. This allows concrete computations of, for example, time-reversal anomalies in fermionic SET phases and U(1) anomalies relevant to surfaces of topological insulators/superconductors.<br>
+(<a href="https://arxiv.org/abs/2104.14567">arXiv:2104.14567</a>, <a href="https://arxiv.org/abs/2111.14827">arXiv:2111.14827</a>)</p>
+<p>These results also lead to mathematical consequences: by constructing local (3+1)D path integrals from (2+1)D SET data, one obtains new combinatorial topological invariants for 4-manifolds. In particular, <a href="https://arxiv.org/abs/2104.14567">arXiv:2104.14567</a> provides a first example of a <strong>combinatorial invariant that distinguishes exotic smooth structures</strong> such as RP4 and a “fake” RP4.</p>
+<p>Finally, I pointed out that topological orders can possess symmetries that act nontrivially <strong>without</strong> anyon permutation or symmetry fractionalization—an effect that goes beyond the standard textbook pictures of symmetry actions in topologically ordered phases.<br>
+(<a href="https://arxiv.org/abs/2501.03314">arXiv:2501.03314</a>)</p>
+<p><strong>Keywords:</strong> SPT/SET, quantum anomalies, boundary theories, path integrals, topological order</p>
+
+  </div>
+</details>
+
+<hr>
+<h3 id="for-prospective-students">For prospective students<a hidden class="anchor" aria-hidden="true" href="#for-prospective-students">#</a></h3>
+<p>The themes above connect abstract theory (<strong>symmetry, anomalies, and field theory</strong>) with concrete realizations (<strong>lattice models, quantum error-correcting codes, and quantum computation</strong>). My research directions may evolve over time, but if you find any of these topics exciting or feel that they resonate with your interests, I would be happy if you reach out.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/en/">Ryohei Kobayashi</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+baseURL = "https://ryoheishome.github.io/"
+title = "Ryohei Kobayashi"
+theme = "PaperMod"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "EN"
+    languageCode = "en"
+    contentDir = "content/en"
+    weight = 1
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "CV"
+        pageRef = "/cv"
+        weight = 10
+      [[languages.en.menu.main]]
+        name = "Publications"
+        pageRef = "/publications"
+        weight = 20
+      [[languages.en.menu.main]]
+        name = "Research"
+        pageRef = "/research"
+        weight = 30
+      [[languages.en.menu.main]]
+        name = "Talks"
+        pageRef = "/talks"
+        weight = 40
+
+  [languages.ja]
+    languageName = "日本語"
+    languageCode = "ja"
+    contentDir = "content/ja"
+    weight = 2
+    title = "小林 良平"
+    [languages.ja.menu]
+      [[languages.ja.menu.main]]
+        name = "経歴"
+        pageRef = "/cv"
+        weight = 10
+      [[languages.ja.menu.main]]
+        name = "業績"
+        pageRef = "/publications"
+        weight = 20
+      [[languages.ja.menu.main]]
+        name = "研究"
+        pageRef = "/research"
+        weight = 30
+      [[languages.ja.menu.main]]
+       name = "講演の記録"
+       pageRef = "/talks"
+       weight = 40

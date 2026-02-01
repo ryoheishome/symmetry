@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on Ryohei Kobayashi</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in Home on Ryohei Kobayashi</description>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/cv/</guid>
+      <description>&lt;h3 id=&#34;positions-and-education&#34;&gt;Positions and Education&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Dates&lt;/th&gt;
+          &lt;th&gt;Position / Degree&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sep 2024 – Present&lt;/td&gt;
+          &lt;td&gt;Member, Institute for Advanced Study, Princeton&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Sep 2021 – Aug 2024&lt;/td&gt;
+          &lt;td&gt;JQI Postdoctoral Fellow, University of Maryland&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Aug 2021&lt;/td&gt;
+          &lt;td&gt;Ph.D., Department of Physics, Graduate School of Science, The University of Tokyo (early completion)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mar 2019&lt;/td&gt;
+          &lt;td&gt;M.S., Department of Physics, Graduate School of Science, The University of Tokyo&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mar 2017&lt;/td&gt;
+          &lt;td&gt;B.S., Department of Physics, Faculty of Science, The University of Tokyo&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Mar 2013&lt;/td&gt;
+          &lt;td&gt;Kaisei Senior High School (graduated)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;photos&#34;&gt;Photos&lt;/h4&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/cv/northernlight.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/publications/</guid>
+      <description>&lt;p&gt;Refereed papers and preprints:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Guanyu Zhu, &lt;strong&gt;Ryohei Kobayashi&lt;/strong&gt;, Po-Shen Hsin, “Non-Abelian qLDPC: TQFT Formalism, Addressable Gauging Measurement and Application to Magic State Fountain on 2D Product Codes”, &lt;a href=&#34;https://arxiv.org/abs/2601.06736&#34;&gt;arXiv:2601.06736&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Yitao Feng, Hanyu Xue, &lt;strong&gt;Ryohei Kobayashi&lt;/strong&gt;, Po-Shen Hsin, Yu-An Chen, “Pauli stabilizer formalism for topological quantum field theories and generalized statistics”, &lt;a href=&#34;https://arxiv.org/abs/2601.00064&#34;&gt;arXiv:2601.00064&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Po-Shen Hsin, &lt;strong&gt;Ryohei Kobayashi&lt;/strong&gt;, “Automorphism in Gauge Theories: Higher Symmetries and Transversal Non-Clifford Logical Gates”, &lt;a href=&#34;https://arxiv.org/abs/2511.15783&#34;&gt;arXiv:2511.15783&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ryohei Kobayashi&lt;/strong&gt;, Guanyu Zhu, Po-Shen Hsin, “Clifford Hierarchy Stabilizer Codes: Transversal Non-Clifford Gates and Magic”, &lt;a href=&#34;https://arxiv.org/abs/2511.02900&#34;&gt;arXiv:2511.02900&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/research/</guid>
+      <description>&lt;p&gt;My research investigates fundamental problems in &lt;strong&gt;quantum many-body physics&lt;/strong&gt; and &lt;strong&gt;quantum error correction&lt;/strong&gt;, with a particular focus on topological phases, symmetries, and quantum anomalies. Especially in recent years, I have been using &lt;strong&gt;symmetry&lt;/strong&gt; as a unifying viewpoint to systematically understand the universal structure and dynamics of strongly correlated quantum systems and error-correcting codes.&lt;/p&gt;
+&lt;p&gt;Below I briefly summarize my past and current research by themes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;details &gt;
+  &lt;summary markdown=&#34;span&#34;&gt;&lt;ol&gt;
+&lt;li&gt;Symmetry of Quantum Error-Correcting Codes and Logical Gates&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/summary&gt;
+  &lt;div class=&#34;details-content&#34;&gt;
+    &lt;p&gt;In quantum error correction, it is crucial not only to build codes robust against noise, but also to understand &lt;strong&gt;how to implement logical computation (logical gates) on encoded qubits&lt;/strong&gt;. A central theme of my work is that generalized symmetries in quantum matter are deeply tied to the structure of logical gates in stabilizer codes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/en/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/talks/</guid>
+      <description>&lt;p&gt;This page highlights selected recent talks for which &lt;strong&gt;recordings and/or notes&lt;/strong&gt; are publicly available (or will be made available soon).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;kitp-santa-barbara--invited-lecture-2-hours&#34;&gt;KITP (Santa Barbara) — Invited lecture (2 hours)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Topic&lt;/strong&gt;: Symmetry in quantum error-correcting codes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date&lt;/strong&gt;: March 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link&lt;/strong&gt;: &lt;a href=&#34;https://online.kitp.ucsb.edu/online/gensym25/kobayashi/&#34;&gt;https://online.kitp.ucsb.edu/online/gensym25/kobayashi/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;the-university-of-tokyo-watanabe-group--intensive-lecture&#34;&gt;The University of Tokyo (Watanabe group) — Intensive lecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Topic&lt;/strong&gt;: Symmetry in quantum many-body systems and applications&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date&lt;/strong&gt;: December 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link&lt;/strong&gt;: &lt;a href=&#34;https://sites.google.com/view/watanabegroup/japanese/seminars/kobayashi_lecture&#34;&gt;https://sites.google.com/view/watanabegroup/japanese/seminars/kobayashi_lecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notes&lt;/strong&gt;: Handwritten notes will be posted soon (in preparation)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;kitp-santa-barbara--invited-talk&#34;&gt;KITP (Santa Barbara) — Invited talk&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Topic&lt;/strong&gt;: Microscopic characterization of quantum anomalies of symmetries&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date&lt;/strong&gt;: April 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Link&lt;/strong&gt;: &lt;a href=&#34;https://online.kitp.ucsb.edu/online/gensym-c25/kobayashi/&#34;&gt;https://online.kitp.ucsb.edu/online/gensym-c25/kobayashi/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;oxford-symmetry-seminar--invited-talks-two-occasions&#34;&gt;Oxford “Symmetry Seminar” — Invited talks (two occasions)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Seminar series&lt;/strong&gt;: &lt;a href=&#34;https://sites.google.com/view/symmetryseminar/home&#34;&gt;https://sites.google.com/view/symmetryseminar/home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Videos&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Talk 1: &lt;a href=&#34;https://www.youtube.com/watch?v=r7RITb5RqPI&#34;&gt;https://www.youtube.com/watch?v=r7RITb5RqPI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Talk 2: &lt;a href=&#34;https://www.youtube.com/watch?v=qVIslcyXrfU&#34;&gt;https://www.youtube.com/watch?v=qVIslcyXrfU&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
