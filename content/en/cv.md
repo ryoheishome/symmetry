@@ -16,10 +16,10 @@
 
 #### Photos
 
-![](/img/cv/northernlight.jpg)
+![](/symmetry/img/cv/northernlight.jpg)
 
 *Taken at IAS (2024-10-11) — Northern lights.*
 
-![](/img/cv/comet.jpg)
+![](/symmetry/img/cv/comet.jpg)
 
 *Taken at IAS (2024-10-14) — Comet Tsuchinshan–ATLAS (C/2023 A3).*

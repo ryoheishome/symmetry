@@ -3,7 +3,7 @@ title: "Home"
 ---
 
 
-{{< figure src="/img/RK_photo.jpg" alt="Profile photo" class="profile-photo" >}}
+{{< figure src="img/RK_photo.jpg" alt="Profile photo" class="profile-photo" >}}
 
 
 I am an Associate Professor (from April 2026) in the Department of Applied Physics, The University of Tokyo.
