@@ -18,7 +18,7 @@
 
 ![](/symmetry/img/cv/northernlight.jpg)
 
-*Taken at IAS (2024-10-11) — Northern lights.*
+*Taken at IAS (2024-10-10) — Northern lights.*
 
 ![](/symmetry/img/cv/comet.jpg)
 

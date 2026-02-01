@@ -18,7 +18,7 @@
 
 ![](/symmetry/img/cv/northernlight.jpg)
 
-*IASにて撮影（2024-10-11）— オーロラ。*
+*IASにて撮影（2024-10-10）— オーロラ。*
 
 ![](/symmetry/img/cv/comet.jpg)
 
