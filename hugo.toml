@@ -14,19 +14,19 @@ defaultContentLanguageInSubdir = true
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "CV"
-        pageRef = "/cv"
+        url = "en/cv/"
         weight = 10
       [[languages.en.menu.main]]
         name = "Publications"
-        pageRef = "/publications"
+        url = "en/publications/"
         weight = 20
       [[languages.en.menu.main]]
         name = "Research"
-        pageRef = "/research"
+        url = "en/research/"
         weight = 30
       [[languages.en.menu.main]]
         name = "Talks"
-        pageRef = "/talks"
+        url = "en/talks/"
         weight = 40
 
   [languages.ja]
@@ -38,17 +38,17 @@ defaultContentLanguageInSubdir = true
     [languages.ja.menu]
       [[languages.ja.menu.main]]
         name = "経歴"
-        pageRef = "/cv"
+        url = "ja/cv/"
         weight = 10
       [[languages.ja.menu.main]]
         name = "業績"
-        pageRef = "/publications"
+        url = "ja/publications/"
         weight = 20
       [[languages.ja.menu.main]]
         name = "研究"
-        pageRef = "/research"
+        url = "ja/research/"
         weight = 30
       [[languages.ja.menu.main]]
-       name = "講演の記録"
-       pageRef = "/talks"
-       weight = 40
+        name = "講演の記録"
+        url = "ja/talks/"
+        weight = 40
