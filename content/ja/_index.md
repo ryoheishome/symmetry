@@ -2,10 +2,11 @@
 title: "ホーム"
 ---
 
-{{< figure src="img/RK_photo.jpg" alt="Profile photo" class="profile-photo" >}}
+<img src="/symmetry/img/RK_photo.jpg" alt="Profile photo" class="profile-photo" width="220">
 
 
 東京大学 工学系研究科 物理工学専攻にて准教授（2026年4月着任予定）です。現在は Institute for Advanced Study, Princeton の Member として在籍しています。
+
 
 ---
 
