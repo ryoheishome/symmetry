@@ -5,7 +5,8 @@
 
 | Dates | Position / Degree |
 |---|---|
-| Sep 2024 – Present | Member, Institute for Advanced Study, Princeton |
+| Apr 2026 – Present | Associate Professor, Department of Applied Physics, University of Tokyo |
+| Sep 2024 – Mar 2026 | Member, Institute for Advanced Study, Princeton |
 | Sep 2021 – Aug 2024 | JQI Postdoctoral Fellow, University of Maryland |
 | Aug 2021 | Ph.D., Department of Physics, Graduate School of Science, The University of Tokyo (early completion) |
 | Mar 2019 | M.S., Department of Physics, Graduate School of Science, The University of Tokyo |

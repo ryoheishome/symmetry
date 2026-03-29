@@ -5,13 +5,12 @@ title: "Home"
 ![](/symmetry/img/RK_photo.jpg)
 
 
-I am an Associate Professor (from April 2026) in the Department of Applied Physics, The University of Tokyo.
-Currently, I am a Member at the Institute for Advanced Study, Princeton.
+I am an Associate Professor in the Department of Applied Physics, The University of Tokyo. Feel free to email me if you are a student interested in working with me. 
 
 ---
 
 ### Contact
-- Email: `ryok [at] ias.edu`
+- Email: `kobayashir061 [at] gmail.com`
 
 ### Links
 - arXiv: https://arxiv.org/a/kobayashi_r_1.html

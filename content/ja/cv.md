@@ -5,7 +5,8 @@
 
 | 期間 | 内容 |
 |---|---|
-| 2024年9月 – 現在 | Member, Institute for Advanced Study, Princeton |
+| 2026年4月 – 現在 | 東京大学 工学系研究科物理工学専攻 准教授 |
+| 2024年9月 – 2026年3月 | Member, Institute for Advanced Study, Princeton |
 | 2021年9月 – 2024年8月 | JQI Postdoctoral Fellow, University of Maryland |
 | 2021年8月 | 東京大学大学院 理学系研究科 物理学専攻 博士課程 修了（博士、早期卒業） |
 | 2019年3月 | 東京大学大学院 理学系研究科 物理学専攻 修士課程 修了 |
