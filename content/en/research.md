@@ -7,7 +7,7 @@ Below I briefly summarize my past and current research by themes.
 
 {{< details "1. Symmetry of Quantum Error-Correcting Codes and Logical Gates" >}}
 
-In quantum error correction, it is crucial not only to build codes robust against noise, but also to understand **how to implement logical computation (logical gates) on encoded qubits**. A central theme of my work is that generalized symmetries in quantum matter are deeply tied to the structure of logical gates in stabilizer codes.
+In quantum error correction, it is crucial not only to build codes robust against noise, but also to understand **how to implement logical operations (logical gates) on encoded qubits**. A central theme of my work is that generalized symmetries in quantum matter are deeply tied to the structure of logical gates in stabilizer codes.
 
 For example, I showed that finite-group gauge theories—including the Z2 toric code—**universally exhibit higher-group symmetries**. These generalized symmetries can be interpreted as logical operations, and their algebraic structure leads to the **Clifford hierarchy**, thereby revealing symmetry principles that enable **non-Clifford logical gates** essential for universal fault-tolerant quantum computation.  
 ([arXiv:2208.07367](https://arxiv.org/abs/2208.07367), [arXiv:2211.11764](https://arxiv.org/abs/2211.11764))
